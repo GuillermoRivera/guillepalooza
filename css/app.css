@@ -1,5 +1,13 @@
 body {
   background-color: #ee3f54;
+  font-family: 'Courgette', cursive;
+}
+h1, h2, h3, h4, h5, h6, button {
+  font-family: 'Courgette', cursive;
+}
+#logo-container .callout {
+  background-color: #ee3f54;
+  color: white;
 }
 #social-container {
   background-color: #1c3643;
