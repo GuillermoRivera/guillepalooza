@@ -36,9 +36,34 @@ h1, h2, h3, h4, h5, h6, button {
 #tickets-action .callout {
   background-color: #5e7eb7;
   color: white;
+  margin-bottom: 0;
 }
 #tickets-action .callout button {
   border: 1px solid white;
   color: white;
   font-size: 2em;
+}
+#lineup-container {
+  padding: 1em 0;
+}
+#lineup-container, #lineup-container .tabs, #lineup-container .tabs .tabs-title, #lineup-container .tabs .tabs-title.is-active a,  #lineup-container .tabs-panel {
+  background-color: #9676af;
+  border: 0;
+  color: white;
+  font-family: 'Courgette', cursive;
+}
+#lineup-container .tabs .tabs-title a {
+  color: #a7fffb;
+  font-size: 18px;
+}
+#lineup-container .tabs .tabs-title a:hover {
+  background-color: #9676af;
+  color: white;
+}
+.tabs-title {
+  display: inline-block;
+  float: none;
+}
+.tabs-content {
+  border: 0;
 }
