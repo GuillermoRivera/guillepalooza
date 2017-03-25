@@ -67,3 +67,14 @@ h1, h2, h3, h4, h5, h6, button {
 .tabs-content {
   border: 0;
 }
+#lineup-container .orbit-container {
+  margin-bottom: 1em;
+}
+#lineup-container .column:nth-child(odd) figcaption {
+  text-align: right;
+}
+.slides-container {
+  list-style: none;
+  margin: 0 0 1em 0;
+  width: 100%;
+}
