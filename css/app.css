@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6, button {
 }
 #menu-container {
   background-color: #48a19d;
+  overflow: hidden;
 }
 #menu-container li a { 
   color: white;
@@ -77,4 +78,19 @@ h1, h2, h3, h4, h5, h6, button {
   list-style: none;
   margin: 0 0 1em 0;
   width: 100%;
+}
+#tickets-container {
+  background-color: #f6e15f;
+  color: #161742;
+  padding: 1em 0;
+}
+.pricing-table {
+  border: 1px solid #161742;  
+  font-family: 'Acme', sans-serif;
+}
+.pricing-table li, .pricing-table li.description, .pricing-table a.button {
+  font-size: 1em;
+}
+.pricing-table li.price, .pricing-table li.title {
+  font-size: 1.3em;
 }
