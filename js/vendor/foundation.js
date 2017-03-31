@@ -1,5 +1,4 @@
 !function ($) {
-
   "use strict";
 
   var FOUNDATION_VERSION = '6.3.1';
