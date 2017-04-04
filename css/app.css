@@ -102,3 +102,14 @@ h1, h2, h3, h4, h5, h6, button {
 #info-container .info-map iframe {
   width: 100%;
 }
+.subscribe-container {
+  background-color: #ee3f54;
+  color: white;
+  padding: 1em 0;
+}
+.subscribe-container h4 small {
+  color: #ffcddc;
+}
+.subscribe-container .error-container, input[type="submit"] {
+  font-family: "Acme", sans-serif;
+}
